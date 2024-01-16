@@ -1,0 +1,67 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-size: 16px;
+    /* background-color: #ddd; */
+    font-family: 'Roboto','SUIT-Regular', sans-serif;
+    color: #593932;
+}
+
+.wrap{
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+    width: 1920px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    position: fixed;
+}
+
+.mainmenu{
+    
+}
+
+
+.m_menu{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+.m_menu > li{
+    width: 130px;
+    text-align: center;
+    margin-top: 50px;
+}
+.m_menu > li > a{
+    font-weight: bold;
+}
+
+.s_menu{
+    /* width: 150px; */
+    border: 1px solid #ddd;
+    background-color: white;
+    margin-top: 20px;
+    display: none;
+}
+.s_menu li{
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+}
+.s_menu li a{
+    /* border: 1px solid #ddd; */
+}
+
+.section{}
+.slide{}
+.slide img{}
